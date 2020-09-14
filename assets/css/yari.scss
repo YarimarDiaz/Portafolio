@@ -1,0 +1,213 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  font-family: 'Roboto', sans-serif;
+}
+
+.mt-paginas {
+  padding-top: 2em;   
+}  
+
+.nav-link {
+  color: #002A5C !important;
+}
+
+.my {
+  padding-left: 50%;
+}
+
+.about-me .jumbotron .row img {
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-top: 23px;
+  height: 280px;
+  box-shadow: 9px 8px 16px 2px;
+}
+
+.ubicaciones i, a, a:hover {
+  color: #002A5C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.about-me {
+  background-image: url(../img/responsive.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 50px !important;
+
+
+  .jumbotron {
+    background-color: inherit !important;
+
+    .row{
+      img{
+        border-radius: 50%;
+
+      }
+    }
+  
+    h1, p.lead {
+      text-align: center;
+    }
+
+    h1 {
+      border-radius: 40px 40px 0 0;
+      margin-bottom: 0;
+      padding-top: 1em;
+    }
+
+    p.lead {
+      border-radius: 0 0 40px 40px;
+      padding: 2em;
+    }
+
+    .card {
+      border: none !important;
+      background-color: inherit !important;
+
+      .row{
+         background: rgba(0, 0, 0, 0.1);
+        padding: 2em;
+        div{
+          text-align: center;
+          color: white;
+          img{
+            width: 70%;
+          }
+        }
+
+      }
+      .card-text {
+        text-align: justify;
+      }
+    }
+
+  }
+
+
+}
+
+.skill {
+  .jumbotron {
+    .row {
+      margin-top: 4px;
+      .col-1 {
+
+        span {
+          &.number {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            color: black;
+            width: 100%;
+            text-align: center;
+          }
+
+        }
+      }
+
+      .col {
+        background-color: silver;
+        span {
+          &.percent {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100% !important;
+            height: 1em;
+            background-color: #458ad2;
+          }
+
+          &._10 {
+            width: 10%;
+          }
+
+          &._20 {
+            width: 20%;
+          }
+
+          &._30 {
+            width: 30%;
+          }
+
+          &._40 {
+            width: 40%;
+          }
+
+          &._50 {
+            width: 50%;
+          }
+
+          &._60 {
+            width: 60%;
+          }
+
+          &._70 {
+            width: 70%;
+          }
+
+          &._80 {
+            width: 80%;
+          }
+
+          &._90 {
+            width: 90%;
+          }
+
+          &._100 {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.photo-profile {
+  border-radius: 50%;
+}
+
+.display-4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #002A5C;
+}
+
+@media (max-width: 560px) {
+  .text-white {
+    color: black !important;
+  }
+  .about-me .jumbotron .row img {
+    border-radius: 50%;
+    padding-left: 0;
+    height: 120px;
+    margin-left: 0px;
+    margin-top: 20px;
+  
+}
+
+  .h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #002A5C;
+}
+  .my {
+    padding-left: 0;
+  }
+  
+
+}
+
+footer{
+  background-color: #002A5C !important;
+}
