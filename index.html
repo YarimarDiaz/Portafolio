@@ -4,13 +4,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portafolio YD</title>
+    <title>Yarimar Diaz</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link id="favicon" rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="assets/css/bootstrap-reboot.min.css" type="text/css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="assets/css/yari.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/608f84ed3b.js" crossorigin="anonymous"></script>
 
 </head>
@@ -139,58 +144,162 @@
             <h1 class="display-4">Portafolio</h1>
             <div class="card-group">
                 <div class="card">
-                    <a href="https://yarimardiaz.github.io/SCL013-data-lovers/src/index.html" target="_blank">
-                        <img src="./assets/img/logotipo.jpg" class="card-img-top" alt="..."></a>
+                    <img src="./assets/img/logotipo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pokeModal">
+                            PokéData
+                        </button>
 
-                    <div class="card-body">
-                        <a href="https://yarimardiaz.github.io/SCL013-data-lovers/src/index.html" target="_blank">
-                            <a href="https://yarimardiaz.github.io/SCL013-data-lovers/src/index.html" target="_blank">
-                                <h5 class="card-title">Proyecto Data-Lovers</h5>
-                            </a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="pokeModal" tabindex="-1" aria-labelledby="modalPekemon"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">
+                                            <img src="./assets/img/Captura data-lovers.png" class="img-fluid">
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        PokeData es una plataforma web basada en el juego PokemonGo, desarrollada bajo
+                                        el lenguaje
+                                        de programación javascript; esta entrega información a los amantes de Pokemon
+                                        permitiendoles
+                                        filtrar y ordenar los personajes por categorías.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="https://github.com/YarimarDiaz/SCL013-data-lovers" target="_blank"
+                                            class="btn btn-secondary">Repositorio</a>
+                                        <a href="https://yarimardiaz.github.io/SCL013-data-lovers/src/index.html"
+                                            target="_blank" class="btn btn-primary">Sitio Web</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <a href="https://yarimardiaz.github.io/SCL013-social-network/src/index.html" target="_blank">
-                        <img src="./assets/img/logo3.jpg" class="card-img-top" alt="..."></a>
+                    <img src="./assets/img/logo3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <a href="https://yarimardiaz.github.io/SCL013-social-network/src/index.html" target="_blank">
-                            <h5 class="card-title">Proyecto Social-Network</h5>
-                        </a>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-trueke">
+                            El Trueke
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal-trueke" tabindex="-1" aria-labelledby="modalTrueke"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">
+                                            <img src="./assets/img/Captura El-Trueke.png" class="img-fluid">
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        La red social EL TRUEKE es una página web dirigida a personas que quieren
+                                        realizar intercambio
+                                        de bienes materiales o enceres por otros productos según la necesidad de los
+                                        usuarios.
+                                        Desarrollada bajo el ambiente de javaScript y FireBase.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="https://github.com/YarimarDiaz/SCL013-social-network" target="_blank"
+                                            class="btn btn-secondary">Repositorio</a>
+                                        <a href="https://yarimardiaz.github.io/SCL013-social-network/src/index.html"
+                                            target="_blank" class="btn btn-primary">Sitio Web</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <a href="https://moongold-lab.web.app/" target="_blank">
-                        <img src="./assets/img/moon-gold.jpg" class="card-img-top" alt="..."></a>
+                    <img src="./assets/img/moon-gold.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <a href="https://moongold-lab.web.app/" target="_blank">
-                            <h5 class="card-title">Proyecto Burger-Queen</h5>
-                        </a>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#burgeModal">
+                            Moon Gold
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="burgeModal" tabindex="-1" aria-labelledby="burgeModal"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="burgeModalLabel">
+                                            <img src="./assets/img/Captura moon-gold.png" class="img-fluid">
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        MoonGold es una plataforma web desarrollada bajo el Framework Angular, esta
+                                        permite que puedan
+                                        tomar pedidos usando una tablet, y enviarlos a la cocina para que se preparen
+                                        ordenada y eficientemente.
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <a href="https://github.com/YarimarDiaz/SCL013-burger-queen" target="_blank"
+                                            class="btn btn-secondary">Repositorio</a>
+
+                                        <a href="https://moongold-lab.web.app/" class="btn btn-primary"
+                                            target="_blank">Sito Web</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <a name="pagina5"></a><br>
-    <div class="container-fluid  pagina mt-paginas contact pb-5">
+    <div class="container-fluid  pagina mt-paginas contact pb-5 bg-primary text-white">
         <div class="container">
             <div class="row mb-5">
                 <div class="col">
-                    <h1 class="display-4 text-center">Ubicación Rápida</h1>
+                    <h1 class="display-4 text-center text-white">Ubicación Rápida</h1>
                 </div>
             </div>
 
-            <div class="ubicaciones">
-                <div class="row">
-                    <div class="col-sm-4 p-2"><i class="fas fa-phone-square-alt fa-2x"></i> +56 951939002</div>
+            <div class="ubicaciones ">
+                <div class="row ">
+                    <div class="col-sm-4 p-2"><i class="fas fa-phone-square-alt fa-3x"></i>
+                        <br> +56 951939002
+                    </div>
+
                     <div class="col-sm-4 p-2"><a href="mailto:ydiazm1990@gmail.com" target="_blank"><i
-                                class="fas fa-envelope-square fa-2x"></i> ydiazm1990@gmail.com</a> </div>
+                                class="fas fa-envelope-square fa-3x"></i>
+                            <br> ydiazm1990@gmail.com</a>
+                    </div>
+
                     <div class="col-sm-4 p-2"><a href="https://github.com/YarimarDiaz" target="_blank"><i
-                                class="fab fa-github-square fa-2x"></i> YarimarDiaz</a></div>
+                                class="fab fa-github-square fa-3x"></i>
+                            <br> YarimarDiaz</a>
+                    </div>
+
                     <div class="col-sm-4 p-2"><a href="https://www.linkedin.com/in/yarimar-diaz-medina"
-                            target="_blank"><i class="fab fa-linkedin fa-2x"></i> Yarimar Diaz</a></div>
-                    <div class="col-sm-4 p-2"><i class="fas fa-link fa-2x"></i> </div>
-                    <div class="col-sm-4 p-2"><a href="https://www.dropbox.com/s/8fffzy9udc81ybl/CV-YARIMAR-DIAZ.pdf?dl=0" target="_blank"><i class="fa fa-download"></i> Descarga mi
-                            CV</a>
+                            target="_blank"><i class="fab fa-linkedin fa-3x"></i>
+                            <br> Yarimar Diaz</a>
+                    </div>
+
+                    <div class="col-sm-4 p-2"><a
+                            href="https://www.dropbox.com/s/8fffzy9udc81ybl/CV-YARIMAR-DIAZ.pdf?dl=0" target="_blank"><i
+                                class="fa fa-download fa-3x"></i>
+                            <br> Descarga mi CV</a>
                     </div>
                 </div>
             </div>
@@ -198,20 +307,22 @@
     </div>
 
     <footer>
-        <div class="container-fluid p-4 text-info">
+        <div class="container-fluid p-4 text-info ">
             <div class="row">
+                <div class="col-sm">
+                    <i class="fas fa-map-marker-alt fa-2x"></i> Providencia, Santiago
+                </div>
                 <div class="col-sm">
                     &copy; 2020 by Yarimar Díaz
                 </div>
-                <div class="col-sm">
-                    <i class="fas fa-map-marker-alt fa-1x"></i> Providencia, Santiago</div>
             </div>
-        </div>
     </footer>
 
     <script src="assets/js/jquery.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+    <script src="/index.js"></script>
 </body>
 
 </html>
